@@ -80,6 +80,11 @@ def restore_db(json_path, target_mdb):
             # Create Table
             table = tb.toTable(db)
 
+            # Enable AutoNumber Insert if applicable
+            has_auto = any(col.get("auto_number") for col in columns)
+            if has_auto:
+                table.setAllowAutoNumberInsert(True)
+
             # Map column name to type for coercion
             col_types = {}
             for col in columns:
@@ -116,13 +121,13 @@ def restore_db(json_path, target_mdb):
                                 try:
                                     # Handle "123.0" if float in string?
                                     row_map.put(k, int(float(v)))
-                                except:
+                                except Exception:
                                     row_map.put(k, v)  # Fallback
 
                             elif dtype in (DataType.DOUBLE, DataType.FLOAT):
                                 try:
                                     row_map.put(k, float(v))
-                                except:
+                                except Exception:
                                     row_map.put(k, v)
 
                             elif dtype == DataType.BOOLEAN:
@@ -139,7 +144,7 @@ def restore_db(json_path, target_mdb):
                                     from java.util import Date
 
                                     row_map.put(k, Date(int(v)))
-                                except:
+                                except Exception:
                                     row_map.put(k, None)
 
                             else:

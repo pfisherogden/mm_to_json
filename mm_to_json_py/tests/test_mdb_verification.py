@@ -27,9 +27,8 @@ except ImportError as e:
 # Configuration
 # MDBs are in ../../tmp/Swim Meets/ relative to project_root (mm_to_json_py)
 # Actually project root is mm_to_json/mm_to_json_py
-# Data is in mm_to_json/tmp/Swim Meets
-# So from project_root, it is ../tmp/Swim Meets
-DATA_DIR = os.path.abspath(os.path.join(project_root, "../tmp/Swim Meets"))
+# Data is in mm_to_json/tmp (subfolders SwimMeetsYYYY)
+DATA_DIR = os.path.abspath(os.path.join(project_root, "../tmp"))
 OUTPUT_DIR = os.path.join(project_root, "verification_output")
 REPORT_FILE = os.path.join(project_root, "verification_report.md")
 

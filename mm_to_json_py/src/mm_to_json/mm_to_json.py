@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 import argparse
+import datetime
 import json
 import os
 
+# from access_parser import AccessParser DEPRECATED
+import mdb_writer
 import pandas as pd
-from access_parser import AccessParser
 
 
 class MmToJsonConverter:
@@ -17,7 +19,11 @@ class MmToJsonConverter:
             password = os.environ.get("MM_DB_PASSWORD")
 
         print(f"Loading database: {mdb_path}")
-        self.db = AccessParser(mdb_path)
+
+        # Initialize Jackcess
+        mdb_writer.ensure_jvm_started()
+        self.db = mdb_writer.open_db(mdb_path)
+
         self.tables = {}
         self.cache_athlete_map = None
         self.cache_team_map = None
@@ -38,7 +44,8 @@ class MmToJsonConverter:
             "Divisions": ["Divisions", "DIVISIONS"],
         }
 
-        catalog_tables = list(self.db.catalog.keys())
+        # Jackcess
+        catalog_tables = [str(t) for t in self.db.getTableNames()]
         catalog_map = {t.lower(): t for t in catalog_tables}
 
         for logical, physical_candidates in self.table_aliases.items():
@@ -49,56 +56,53 @@ class MmToJsonConverter:
                     break
 
             if found_name:
+                print(f"DEBUG: Parsing table {found_name}...")
+                rows = None
                 try:
                     # Detect Schema Type based on Event table name
                     if logical == "Event" and found_name == "MTEVENT":
                         self.schema_type = "B"
                         print("Detected Schema Type B (MTEVENT structure)")
 
-                    rows = self.db.parse_table(found_name)
-
-                    if isinstance(rows, dict):
-                        # Sanitize column lengths
-                        max_len = 0
-                        # Ensure all values are lists
-                        scalar_only = True
-                        for k, v in rows.items():
-                            if isinstance(v, list):
-                                max_len = max(max_len, len(v))
-                                scalar_only = False
-                        
-                        if scalar_only and rows:
-                            # If all scalars (and not empty), wrap them
-                            for k, v in rows.items():
-                                rows[k] = [v]
-                        else:
-                            # Normalize list lengths
-                            for k, v in rows.items():
-                                if isinstance(v, list) and len(v) < max_len:
-                                    rows[k] = v + [None] * (max_len - len(v))
-                                elif not isinstance(v, list):
-                                    # Mixed scalar/list? Should not happen in well-formed output, but handle it
-                                    rows[k] = [v] + [None] * (max_len - 1)
-
-                        df = pd.DataFrame(rows)
-                    elif isinstance(rows, list) and len(rows) > 0 and isinstance(rows[0], dict):
-                        df = pd.DataFrame(rows)
-                    else:
-                        print(f"Warning: Unexpected data format for {found_name}: {type(rows)}")
-                        df = pd.DataFrame()
-
-                    if not df.empty:
-                        df.columns = df.columns.astype(str)
-
-                    self.tables[logical] = df
-                    print(f"Loaded {logical} from {found_name} ({len(df)} rows)")
-
+                    rows = self._read_table_jackcess(found_name)
                 except Exception as e:
-                    print(f"Warning: Error loading table {found_name}: {e}")
-                    import traceback
+                    print(f"ERROR: Failed to parse table {found_name}: {e}")
+                    print("SKIPPING TABLE due to parse error.")
+                    rows = None
 
-                    traceback.print_exc()
-                    self.tables[logical] = pd.DataFrame()
+                df = pd.DataFrame()
+                if isinstance(rows, dict):
+                    # Sanitize column lengths
+                    max_len = 0
+                    # Ensure all values are lists
+                    scalar_only = True
+                    for k, v in rows.items():
+                        if isinstance(v, list):
+                            max_len = max(max_len, len(v))
+                            scalar_only = False
+
+                    if scalar_only and rows:
+                        # If all scalars (and not empty), wrap them
+                        for k, v in rows.items():
+                            rows[k] = [v]
+                    else:
+                        # Normalize list lengths
+                        for k, v in rows.items():
+                            if isinstance(v, list) and len(v) < max_len:
+                                rows[k] = v + [None] * (max_len - len(v))
+                            elif not isinstance(v, list):
+                                # Mixed scalar/list? Should not happen in well-formed output, but handle it
+                                rows[k] = [v] + [None] * (max_len - 1)
+
+                    df = pd.DataFrame(rows)
+                elif isinstance(rows, list) and len(rows) > 0 and isinstance(rows[0], dict):
+                    df = pd.DataFrame(rows)
+
+                if not df.empty:
+                    df.columns = df.columns.astype(str)
+
+                self.tables[logical] = df
+                print(f"Loaded {logical} from {found_name} ({len(df)} rows)")
             else:
                 # If Schema B, Sessitem might be missing, which is fine
                 if logical not in ["Sessitem", "RelayNames", "Divisions"]:
@@ -106,6 +110,46 @@ class MmToJsonConverter:
                         f"Warning: Logical table {logical} not found (checked {physical_candidates})."
                     )
                 self.tables[logical] = pd.DataFrame()
+
+    def _read_table_jackcess(self, table_name):
+        import base64
+
+        t = self.db.getTable(table_name)
+        if t is None:
+            return None
+
+        columns = [str(c.getName()) for c in t.getColumns()]
+
+        rows = []
+        for row in t:
+            row_data = {}
+            for cname in columns:
+                val = row.get(cname)
+                if val is None:
+                    row_data[cname] = None
+                elif isinstance(val, (int, float, str, bool)):
+                    row_data[cname] = val
+                else:
+                    try:
+                        type_name = str(type(val))
+                        if "Date" in type_name:
+                            try:
+                                ts = val.getTime() / 1000.0
+                                row_data[cname] = datetime.datetime.fromtimestamp(ts)
+                            except Exception:
+                                row_data[cname] = str(val)
+                        elif "byte[]" in type_name or "jarray" in type_name:
+                            try:
+                                b = bytes(val)
+                                row_data[cname] = base64.b64encode(b).decode("ascii")
+                            except Exception:
+                                row_data[cname] = str(val)
+                        else:
+                            row_data[cname] = str(val)
+                    except Exception:
+                        row_data[cname] = str(val)
+            rows.append(row_data)
+        return rows
 
     def convert(self):
         meet = self.get_meet_info()
@@ -210,15 +254,15 @@ class MmToJsonConverter:
                     val = row.get("SESSION", 0)
                     if pd.isna(val):
                         continue
-                    sess_num = int(float(val))
-                except:
+                    sess_num = self._safe_int(val)
+                except Exception:
                     continue
 
                 sess = Session(
                     sess_id=sess_num,  # ID is same as number here
                     number=sess_num,
                     name=f"Session {sess_num}",  # Name not explicitly in SESSIONS usually?
-                    day=int(float(row.get("DAY", 1) or 1)),
+                    day=self._safe_int(row.get("DAY"), 1),
                     start_time=row.get("STARTTIME", "09:00"),
                 )
                 sessions.append(sess)
@@ -255,7 +299,7 @@ class MmToJsonConverter:
                         pd.to_numeric(df_evt["Session"], errors="coerce").fillna(0).astype(int)
                     )
                     sess_items = df_evt[df_evt["Session_Numeric"] == target_sess]
-                except:
+                except Exception:
                     sess_items = df_evt[df_evt["Session"] == target_sess]
 
                 # Sort by event number
@@ -329,7 +373,7 @@ class MmToJsonConverter:
             relay = str(row.get("I_R", "I")) == "R"
 
             # Lo_Hi parsing
-            lo_hi = int(float(row.get("Lo_Hi", 0) or 0))
+            lo_hi = self._safe_int(row.get("Lo_Hi"))
             min_age, max_age = self._parse_lo_hi(lo_hi)
 
             # Stroke
@@ -344,13 +388,13 @@ class MmToJsonConverter:
             num_lanes = 0
 
             return Event(
-                event_no=int(float(row.get("MtEvent", 0) or 0)),
+                event_no=self._safe_int(row.get("MtEvent")),
                 is_relay=relay,
                 gender=str(row.get("Sex", "")),
                 gender_desc=str(row.get("Sex", "")),
                 min_age=min_age,
                 max_age=max_age,
-                distance=int(float(row.get("Distance", 0) or 0)),
+                distance=self._safe_int(row.get("Distance")),
                 stroke=stroke_name,
                 division=division_name,
                 round_ltr=round_ltr,
@@ -361,9 +405,9 @@ class MmToJsonConverter:
             # Schema A Mapping
             relay = row.get("Ind_rel", "") == "R"
 
-            pre_lanes = int(float(row.get("Num_prelanes", 0) or 0))
-            fin_lanes = int(float(row.get("Num_finlanes", 0) or 0))
-            evt_rounds = int(float(row.get("Event_rounds", 1) or 1))
+            pre_lanes = self._safe_int(row.get("Num_prelanes"))
+            fin_lanes = self._safe_int(row.get("Num_finlanes"))
+            evt_rounds = self._safe_int(row.get("Event_rounds"), 1)
 
             num_lanes = pre_lanes if evt_rounds == 1 else fin_lanes
 
@@ -374,13 +418,13 @@ class MmToJsonConverter:
             stroke_name = self.get_stroke(stroke_char, relay)
 
             return Event(
-                event_no=int(float(row.get("Event_no", 0) or 0)),
+                event_no=self._safe_int(row.get("Event_no")),
                 is_relay=relay,
                 gender=str(row.get("Event_gender", "")),
                 gender_desc=str(row.get("Event_sex", "")),
-                min_age=int(float(row.get("Low_age", 0) or 0)),
-                max_age=int(float(row.get("High_age", 0) or 0)),
-                distance=int(float(row.get("Event_dist", 0) or 0)),
+                min_age=self._safe_int(row.get("Low_age")),
+                max_age=self._safe_int(row.get("High_age")),
+                distance=self._safe_int(row.get("Event_dist")),
                 stroke=stroke_name,
                 division=division_name,
                 round_ltr=round_ltr,
@@ -433,8 +477,8 @@ class MmToJsonConverter:
                                 "age": athlete["age"],
                                 "schoolYear": athlete["schoolYear"],
                                 "team": athlete["team"],
-                                "heat": int(float(row.get("HEAT", 0) or 0)),
-                                "lane": int(float(row.get("LANE", 0) or 0)),
+                                "heat": self._safe_int(row.get("HEAT")),
+                                "lane": self._safe_int(row.get("LANE")),
                                 "seedTime": time_str,  # Using Score as seed/time (unknown distinction in this schema)
                                 "psTime": "NT",
                             }
@@ -500,8 +544,8 @@ class MmToJsonConverter:
                     team_name = self.get_team_name(team_no)
 
                     # Heat/Lane
-                    heat = int(float(row.get("HEAT", 0) or 0))
-                    lane = int(float(row.get("LANE", 0) or 0))
+                    heat = self._safe_int(row.get("HEAT"))
+                    lane = self._safe_int(row.get("LANE"))
 
                     event.add_entry(
                         {
@@ -558,13 +602,13 @@ class MmToJsonConverter:
         # Logic to pick Pre vs Fin columns
         seed_time = float(row.get("ConvSeed_time", 0.0) or 0.0)
 
-        pre_heat = int(float(row.get("Pre_heat", 0) or 0))
-        pre_lane = int(float(row.get("Pre_lane", 0) or 0))
+        pre_heat = self._safe_int(row.get("Pre_heat"))
+        pre_lane = self._safe_int(row.get("Pre_lane"))
         pre_time = float(row.get("Pre_Time", 0.0) or 0.0)
         pre_stat = str(row.get("Pre_Stat", "") or "")
 
-        fin_heat = int(float(row.get("Fin_heat", 0) or 0))
-        fin_lane = int(float(row.get("Fin_lane", 0) or 0))
+        fin_heat = self._safe_int(row.get("Fin_heat"))
+        fin_lane = self._safe_int(row.get("Fin_lane"))
         fin_time = float(row.get("Fin_Time", 0.0) or 0.0)
         fin_stat = str(row.get("Fin_Stat", "") or "")
 
@@ -655,7 +699,7 @@ class MmToJsonConverter:
                         self.cache_athlete_map[aid] = {
                             "first": str(row.get("First", "")).strip(),
                             "last": str(row.get("Last", "")).strip(),
-                            "age": int(float(row.get("Age", 0) or 0)),
+                            "age": self._safe_int(row.get("Age")),
                             "schoolYear": str(row.get("Class", "")).strip(),
                             "team": team_name,
                         }
@@ -666,7 +710,7 @@ class MmToJsonConverter:
                         self.cache_athlete_map[aid] = {
                             "first": str(row.get("First_name", "")).strip(),
                             "last": str(row.get("Last_name", "")).strip(),
-                            "age": int(float(row.get("Ath_age", 0) or 0)),
+                            "age": self._safe_int(row.get("Ath_age")),
                             "schoolYear": str(row.get("Schl_yr", "")).strip(),
                             "team": team_name,
                         }
@@ -725,6 +769,14 @@ class MmToJsonConverter:
             return "NT"
         return "{:.2f}".format(time_val)
 
+    def _safe_int(self, val, default=0):
+        try:
+            if pd.isna(val):
+                return default
+            return int(float(val))
+        except (ValueError, TypeError):
+            return default
+
     def time_to_min_sec(self, time_str):
         if not time_str or time_str in ["NT", "SCR", "DNS", "DNF", "DQ"]:
             return time_str
@@ -739,7 +791,7 @@ class MmToJsonConverter:
                 return f"{minutes}:{rem_seconds:02d}.{cents:02d}"
             else:
                 return f"{rem_seconds:02d}.{cents:02d}"
-        except:
+        except Exception:
             return time_str
 
 

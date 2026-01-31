@@ -7,7 +7,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SRC_DIR = os.path.abspath(os.path.join(BASE_DIR, "../src"))
 sys.path.append(SRC_DIR)
 
-from mm_to_json import mdb_restorer
+from mm_to_json import mdb_restorer  # noqa: E402
 
 # Import converter script logic directly (if we renamed to module, easier, but for now subprocess or import)
 # Reusing test_full_cycle logic for conversion run?
@@ -16,16 +16,22 @@ CONVERTER_SCRIPT = os.path.join(SRC_DIR, "mm_to_json", "mm_to_json.py")
 DUMP_SCRIPT = os.path.abspath(os.path.join(BASE_DIR, "../scripts/dump_mdb.py"))
 
 
-def run_test():
+def test_recreate_singers():
+    print("Testing Recreation of Singers23.mdb...")
+
     # 1. Source files
     SOURCE_MDB = os.path.join(os.path.dirname(os.path.dirname(BASE_DIR)), "Singers23.mdb")
-    DUMP_JSON = os.path.join(BASE_DIR, "Singers23_dump.json")
+    # DUMP_JSON = os.path.join(BASE_DIR, "Singers23_dump.json") # Unused
     RECREATED_MDB = os.path.join(BASE_DIR, "Recreated.mdb")
     RECREATED_JSON_OUT = os.path.join(BASE_DIR, "Recreated_Export.json")
     ORIGINAL_JSON_OUT = os.path.join(BASE_DIR, "Original_Export.json")
 
+    # Clean previous
+    if os.path.exists(RECREATED_MDB):
+        os.remove(RECREATED_MDB)
+
     # 2. Dump Original
-    SCRIPTS_DIR = os.path.dirname(DUMP_SCRIPT)
+    # SCRIPTS_DIR = os.path.dirname(DUMP_SCRIPT) # Unused
     RAW_DUMP = os.path.join(BASE_DIR, "Singers23_raw_dump.json")
 
     print(f"Dumping original MDB from {SOURCE_MDB}...")
@@ -81,4 +87,4 @@ def subprocess_run(cmd, cwd=None):
 
 
 if __name__ == "__main__":
-    run_test()
+    test_recreate_singers()

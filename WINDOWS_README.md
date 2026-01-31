@@ -75,7 +75,14 @@ To compare the C++ output with the Python output:
 1.  Generate JSON using Python (on Mac or Windows):
     ```bash
     cd mm_to_json_py
-    uv run mm_to_json.py ../Singers23.mdb
+    # Generate schema dump or convert
+    uv run src/mm_to_json/mm_to_json.py ../Singers23.mdb
+    ```
+3.  **Comprehensive Verification**:
+    You can now run the full data generation and restoration pipeline on Windows as well (requires Java 11+ for MDB write support):
+    ```bash
+    cd mm_to_json_py
+    uv run tests/test_comprehensive.py
     ```
 2.  Generate JSON using C++ (as above).
 3.  Use the comparison script:

@@ -91,7 +91,8 @@ class MmToJsonConverter:
                             if isinstance(v, list) and len(v) < max_len:
                                 rows[k] = v + [None] * (max_len - len(v))
                             elif not isinstance(v, list):
-                                # Mixed scalar/list? Should not happen in well-formed output, but handle it
+                                # Mixed scalar/list? Should not happen in well-formed output,
+                                # but handle it
                                 rows[k] = [v] + [None] * (max_len - 1)
 
                     df = pd.DataFrame(rows)
@@ -107,7 +108,8 @@ class MmToJsonConverter:
                 # If Schema B, Sessitem might be missing, which is fine
                 if logical not in ["Sessitem", "RelayNames", "Divisions"]:
                     print(
-                        f"Warning: Logical table {logical} not found (checked {physical_candidates})."
+                        f"Warning: Logical table {logical} not found "
+                        f"(checked {physical_candidates})."
                     )
                 self.tables[logical] = pd.DataFrame()
 
@@ -368,7 +370,10 @@ class MmToJsonConverter:
     def _create_event_from_row(self, row, round_ltr):
         if self.schema_type == "B":
             # Schema B Mapping
-            # ['Meet', 'MtEv', 'MtEvX', 'Lo_Hi', 'Course', 'MtEvent', 'Distance', 'Stroke', 'Sex', 'I_R', 'Session', 'Division', 'EventType', 'SESSX']
+            # ['Meet', 'MtEv', 'MtEvX',            # fmt: off
+            # Columns list: 'MtEvent', 'Distance', 'Stroke', 'Sex', 'I_R', 'Session',
+            # 'Division', 'EventType', 'SESSX'
+            # fmt: on
 
             relay = str(row.get("I_R", "I")) == "R"
 
@@ -479,7 +484,8 @@ class MmToJsonConverter:
                                 "team": athlete["team"],
                                 "heat": self._safe_int(row.get("HEAT")),
                                 "lane": self._safe_int(row.get("LANE")),
-                                "seedTime": time_str,  # Using Score as seed/time (unknown distinction in this schema)
+                                # Using Score as seed/time (unknown distinction in this schema)
+                                "seedTime": time_str,
                                 "psTime": "NT",
                             }
                         )

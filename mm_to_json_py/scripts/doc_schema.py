@@ -15,7 +15,8 @@ for table_name in sorted(catalog.keys()):
         # We can't easily get strict types from access_parser without parsing,
         # but we can infer from a few rows or just list columns.
         # Let's parse and check dtypes of the dataframe.
-        # Check if table exists in parse_table (case insensitive usually handled by library but let's be safe)
+        # Check if table exists in parse_table
+        # (case insensitive usually handled by library but let's be safe)
 
         rows = db.parse_table(table_name)
         if isinstance(rows, dict):

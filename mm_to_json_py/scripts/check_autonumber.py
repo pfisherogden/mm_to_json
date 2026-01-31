@@ -34,7 +34,8 @@ def check_autonumber():
                 is_auto = col.isAutoNumber()
                 dtype = col.getType()
                 print(
-                    f"Table: {t_name:10} | Col: {col_name:10} | AutoNumber: {str(is_auto):5} | Type: {dtype}"
+                    f"Table: {t_name:10} | Col: {col_name:10} | "
+                    f"AutoNumber: {str(is_auto):5} | Type: {dtype}"
                 )
             except Exception as e:
                 print(f"Column {col_name} not found in {t_name} or error: {e}")

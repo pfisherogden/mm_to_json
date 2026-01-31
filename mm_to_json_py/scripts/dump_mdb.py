@@ -70,7 +70,7 @@ def dump_db(mdb_path, output_json):
                             try:
                                 b = bytes(val)
                                 row_data[cname] = base64.b64encode(b).decode("ascii")
-                            except:
+                            except Exception:
                                 row_data[cname] = str(val)
                         else:
                             row_data[cname] = str(val)

@@ -6,7 +6,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SRC_DIR = os.path.abspath(os.path.join(BASE_DIR, "../src"))
 sys.path.append(SRC_DIR)
 
-from mm_to_json import mdb_restorer
+from mm_to_json import mdb_restorer  # noqa: E402
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:

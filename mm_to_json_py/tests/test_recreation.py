@@ -9,7 +9,8 @@ sys.path.append(SRC_DIR)
 
 from mm_to_json import mdb_restorer  # noqa: E402
 
-# Import converter script logic directly (if we renamed to module, easier, but for now subprocess or import)
+# Import converter script logic directly (if we renamed to module, easier,
+# but for now subprocess or import)
 # Reusing test_full_cycle logic for conversion run?
 # Or just subprocess
 CONVERTER_SCRIPT = os.path.join(SRC_DIR, "mm_to_json", "mm_to_json.py")

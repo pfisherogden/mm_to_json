@@ -107,7 +107,8 @@ def populate_test_data():
             # Only show new event or similar
             if row.get("MtEv") == 101 or row.get("MtEvent") == 101:
                 print(
-                    f"  ID: {row.get('MtEvent')}, No: {row.get('MtEv')}, Sess: {row.get('Session')}, Meet: {row.get('Meet')}"
+                    f"  ID: {row.get('MtEvent')}, No: {row.get('MtEv')}, "
+                    f"Sess: {row.get('Session')}, Meet: {row.get('Meet')}"
                 )
         print("--- END DB INSPECTION ---\n")
     finally:
@@ -156,7 +157,8 @@ def verify_data(data):
 
     if not found_event:
         print(
-            f"FAIL: Event with desc '{expected_desc}' not found in Session 5. Events found: {[e['eventDesc'] for e in events]}"
+            f"FAIL: Event with desc '{expected_desc}' not found in Session 5. "
+            f"Events found: {[e['eventDesc'] for e in events]}"
         )
         return False
 

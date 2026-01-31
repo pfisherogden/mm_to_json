@@ -2,7 +2,7 @@ import os
 
 import jpype
 import jpype.imports
-from jpype.types import *
+from jpype.types import *  # noqa: F403
 
 # Path to the local JDK we installed
 # Adjust if the extracted folder name differs
@@ -26,14 +26,14 @@ def ensure_jvm_started():
     if jpype.isJVMStarted():
         return
 
-    if os.path.exists(JDK_HOME):
+    if not os.environ.get("JAVA_HOME") and os.path.exists(JDK_HOME):
         os.environ["JAVA_HOME"] = JDK_HOME
 
     jars = get_classpath()
     if not jars:
         raise RuntimeError("No libraries found in lib/. Cannot start JVM for Jackcess.")
 
-    classpath = ":".join(jars)  # Mac separator
+    classpath = os.pathsep.join(jars)
     # -Djava.class.path must be set at startup
     jpype.startJVM(jpype.getDefaultJVMPath(), "-Djava.class.path=" + classpath)
 

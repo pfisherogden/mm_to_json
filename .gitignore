@@ -15,9 +15,10 @@ dist/
 
 # Java / External Libs
 jdk-*/
-lib/
-*.jar
 *.class
+# Ignore jars generally but allow them in our source lib
+*.jar
+!mm_to_json_py/src/mm_to_json/lib/*.jar
 
 # Temporary debugging scripts
 debug_*.py

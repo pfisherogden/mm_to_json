@@ -118,7 +118,8 @@ class Entry:
     entry_id: Optional[int] = None
 
     def save(self, db):
-        # add_entry(db, entry_id, ath_id, event_id, team_id, heat=0, lane=0, time=None, meet_id=0, i_r="I", ...)
+        # add_entry(db, entry_id, ath_id, event_id, team_id, heat=0, lane=0,
+        #           time=None, meet_id=0, i_r="I", ...)
         e_id = self.entry_id if self.entry_id is not None else 0
         i_r = "R" if self.is_relay_entry else "I"
 

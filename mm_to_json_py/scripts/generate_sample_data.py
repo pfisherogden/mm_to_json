@@ -7,7 +7,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SRC_DIR = os.path.abspath(os.path.join(BASE_DIR, "../src"))
 sys.path.append(SRC_DIR)
 
-from mm_to_json import mdb_restorer, mdb_writer
+from mm_to_json import mdb_restorer, mdb_writer  # noqa: E402
 
 
 def generate(output_mdb, empty_schema_json):

@@ -33,3 +33,6 @@ dump_output.txt
 .vscode/
 .vs/
 *.user
+
+# Temporary Directories
+tmp/

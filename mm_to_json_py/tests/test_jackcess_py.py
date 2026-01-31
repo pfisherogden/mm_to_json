@@ -2,7 +2,6 @@ import os
 
 import jpype
 import jpype.imports
-import jpype.imports
 
 # Path to the local JDK we installed
 JDK_HOME = os.path.join(

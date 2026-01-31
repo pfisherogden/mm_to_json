@@ -189,6 +189,17 @@ class MmToJsonConverter:
 
         return meet_data
 
+    def create_default_session(self):
+        """Creates a default session if none exist in the MDB."""
+        return Session(
+            sess_id=1,
+            number=1,
+            name="Session 1",
+            day=1,
+            start_time="08:00",
+            is_default=True
+        )
+
     # --- Data Retrieval Methods ---
 
     def get_meet_info(self):

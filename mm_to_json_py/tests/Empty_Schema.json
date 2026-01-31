@@ -1,0 +1,8591 @@
+{
+  "tables": {
+    "ALL_STAR": {
+      "columns": [
+        {
+          "name": "Std",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "Lo_Age",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Hi_age",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(0)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(1)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(2)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(3)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(4)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(5)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(6)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(7)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(8)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(9)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(10)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(11)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(12)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(13)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(14)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(15)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(16)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(17)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(18)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(19)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(20)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(21)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(22)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(23)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(24)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(25)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(26)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(27)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(28)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(29)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(30)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(31)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(32)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(33)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(34)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F(35)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(0)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(1)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(2)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(3)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(4)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(5)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(6)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(7)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(8)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(9)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(10)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(11)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(12)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(13)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(14)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(15)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(16)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(17)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(18)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(19)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(20)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(21)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(22)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(23)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(24)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(25)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(26)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(27)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(28)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(29)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(30)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(31)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(32)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(33)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(34)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "S(35)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Distance",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Stroke",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Sex",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "I_R",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Division",
+          "type": "TEXT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ZID",
+          "unique": true,
+          "columns": [
+            "Std"
+          ]
+        },
+        {
+          "name": "Hi_Age",
+          "unique": true,
+          "columns": [
+            "Distance",
+            "Stroke",
+            "Sex",
+            "I_R",
+            "Hi_age",
+            "Lo_Age"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "AthInfo": {
+      "columns": [
+        {
+          "name": "Athlete",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Addr",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "City",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ZIP",
+          "type": "TEXT",
+          "length": 20,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Cntry",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DayP1",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EveP1",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FaxP1",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DayP2",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EveP2",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FaxP2",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MailTo",
+          "type": "TEXT",
+          "length": 80,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Seasonal",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FinaFed",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RegDate",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "NRCD",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EMail",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Member",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "JrHS",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HS",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "YMCA",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Coll",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SL",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DUAL",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Mast",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Dis",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Polo",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Ethnic",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MedCondition",
+          "type": "TEXT",
+          "length": 240,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Medication",
+          "type": "TEXT",
+          "length": 240,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DoctorName",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DoctorPhone",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EmerContact",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EmerPhone",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MailTo2",
+          "type": "TEXT",
+          "length": 80,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Addr2",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "City2",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "State2",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ZIP2",
+          "type": "TEXT",
+          "length": 20,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Cntry2",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EMail2",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "UseMailTo",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusPrompt1",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusValue1",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusPrompt2",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusValue2",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusPrompt3",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusValue3",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "State",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "BLIND",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DEAF",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "PHYSICAL",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "COGNITIVE",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SecAddr",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SecAddr2",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "PrimaryLast",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "PrimaryFirst1",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "PrimaryFirst2",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SecondaryLast",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SecondaryFirst1",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SecondaryFirst2",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CellP1",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CellP2",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "UseBoth",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EveP1P2",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CellP1P2",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EMail1P2",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EveP2P2",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CellP2P2",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EMail2P2",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CellAthlete",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EMailAthlete",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Middle",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "USSDonation",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "PrimaryLast2",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FinaFedCntry",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ExpAthEmail",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ExpFatherEmail",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ExpMotherEmail",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ExpParent1Email",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ExpParent2Email",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RegEMail",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "USSNewsLetter",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HSGradYear",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusPrompt4",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusPrompt5",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusPrompt6",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusPrompt7",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusPrompt8",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusValue4",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusValue5",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusValue6",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusValue7",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusValue8",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FINACompeted",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CustUSSFee",
+          "type": "TEXT",
+          "length": 20,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ZID",
+          "unique": true,
+          "columns": [
+            "Athlete"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "Athlete": {
+      "columns": [
+        {
+          "name": "Athlete",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "Team1",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Team2",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Team3",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Group",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SubGr",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Last",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "First",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Initial",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Sex",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Birth",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Age",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Class",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ID_NO",
+          "type": "TEXT",
+          "length": 34,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Citizen",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Inactive",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Pref",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Batch",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "WMGroup",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "WMSubGr",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "BCSSASwimmer",
+          "type": "TEXT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "BCSSADiver",
+          "type": "TEXT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "BCSSASyncro",
+          "type": "TEXT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "BCSSAPolo",
+          "type": "TEXT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TheSort",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DateClubJoined",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DateGroupJoined",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DiveCertified",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "AWRegType",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RegYear",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Foreign",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ForeignCitizenOf",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LastUpdated",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "PC_Hide",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ZID",
+          "unique": true,
+          "columns": [
+            "Athlete"
+          ]
+        },
+        {
+          "name": "ID_NO",
+          "unique": false,
+          "columns": [
+            "ID_NO"
+          ]
+        },
+        {
+          "name": "LastName",
+          "unique": false,
+          "columns": [
+            "Last",
+            "First",
+            "Initial"
+          ]
+        },
+        {
+          "name": "athWMgroup",
+          "unique": false,
+          "columns": [
+            "WMGroup",
+            "WMSubGr",
+            "Last",
+            "First",
+            "Initial"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "ATHRECR": {
+      "columns": [
+        {
+          "name": "Athlete",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Grad",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "PicFile",
+          "type": "TEXT",
+          "length": 22,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HS_Name",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HS_Phone",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HS_Addr",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HS_City",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HS_State",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HS_ZIP",
+          "type": "TEXT",
+          "length": 20,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HS_Coach",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Oth_Team",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Oth_Coach",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HS_Study",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HS_Rank",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HS_Num",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HS_GPA",
+          "type": "FLOAT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Activities",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Awards",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Add_Info",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Camps",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "T1Score",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Remarks",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "T3Score1",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "T2Score",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Height",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Weight",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Oth_Phone",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Picture",
+          "type": "TEXT",
+          "length": 120,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Video",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Comments",
+          "type": "TEXT",
+          "length": 510,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "T1Name",
+          "type": "TEXT",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "T2Name",
+          "type": "TEXT",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "T3Name",
+          "type": "TEXT",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "T3SName1",
+          "type": "TEXT",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "T3SName2",
+          "type": "TEXT",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "T3Score2",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ZID",
+          "unique": true,
+          "columns": [
+            "Athlete"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "Attendance": {
+      "columns": [
+        {
+          "name": "athlete",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "attend_date",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "morn_aft",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "attn_stat",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "actual_dist",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "yd_mtr",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "athdate",
+          "unique": false,
+          "columns": [
+            "athlete",
+            "attend_date",
+            "morn_aft"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "COACHES": {
+      "columns": [
+        {
+          "name": "Coaches",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "Team",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CPhone",
+          "type": "TEXT",
+          "length": 28,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CEMail",
+          "type": "TEXT",
+          "length": 72,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CName",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CTitle",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Cert1",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Cert2",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Cert3",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Head",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CoachCell",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Export",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "cLastName",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "cFirstName",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "PrimaryMale",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "PrimaryFemale",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Cert4",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Cert5",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CFirst",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CLast",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Cert1Expire",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Cert2Expire",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Cert3Expire",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Cert4Expire",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Cert5Expire",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MaleOnly",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FemaleOnly",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ZID",
+          "unique": true,
+          "columns": [
+            "Coaches"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "CODE": {
+      "columns": [
+        {
+          "name": "ABBR",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DESC",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CODE",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "TYPE",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ZID",
+          "unique": true,
+          "columns": [
+            "ABBR",
+            "TYPE"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "CUSTOMAGEGROUP": {
+      "columns": [
+        {
+          "name": "Lo_Hi",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EventNum",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Stroke",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Distance",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "Lo_Hi",
+          "unique": true,
+          "columns": [
+            "Lo_Hi",
+            "Stroke",
+            "Distance"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "CustomLayout": {
+      "columns": [
+        {
+          "name": "ID",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "Name",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Portrait",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Title",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "CustomLayoutFields": {
+      "columns": [
+        {
+          "name": "FieldName",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Description",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Size",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Abbr",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "CustomLayoutValues": {
+      "columns": [
+        {
+          "name": "LayoutID",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Line",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Sequence",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FieldName",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FieldSize",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Abbr",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RJustified",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "CUSTOMRPTS": {
+      "columns": [
+        {
+          "name": "Name",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Type",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Team",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Group",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SubGr",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Class",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SortBy",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Sex",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Prelim",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Splits",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Stroke",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Distance",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "I_R",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LSC",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LoAge",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HiAge",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkIncRelayLO",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkStandards",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkInactive",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkSince",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SinceDate",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkImprove",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkUntil",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "UntilDate",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkRecords",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RECORD",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkNamesOnly",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkBlankLine",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Grouping",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "AgeGroups",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MeetType",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TopN",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "StanAtLeast",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Course",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkChronological",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Orientation",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkActual",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkNoTimes",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkOnlyElig",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkBest",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RelaySwimmers",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "StdName",
+          "type": "TEXT",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Designator",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkStrokeRate",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LabelIndex",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkNISCA",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkNewStd",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ColIndex",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkGoals",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkIncRelayLegs",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkShowRegistration",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "chkNT",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "DELETEENTRY": {
+      "columns": [
+        {
+          "name": "Meet",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Athlete",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MtEvent",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "Energy": {
+      "columns": [
+        {
+          "name": "energy_no",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "energy_abbr",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "energy_name",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "stress_index",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "energyno",
+          "unique": true,
+          "columns": [
+            "energy_no"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "ENTRY": {
+      "columns": [
+        {
+          "name": "Meet",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Athlete",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "I_R",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Team",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Course",
+          "type": "TEXT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Score",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Ex",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MtEvent",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Misc",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Entry",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "Division",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HEAT",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LANE",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FromOME",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ZID",
+          "unique": true,
+          "columns": [
+            "Entry"
+          ]
+        },
+        {
+          "name": "Athlete",
+          "unique": false,
+          "columns": [
+            "Athlete",
+            "Meet",
+            "MtEvent",
+            "I_R"
+          ]
+        },
+        {
+          "name": "Meet",
+          "unique": false,
+          "columns": [
+            "Meet",
+            "MtEvent",
+            "Athlete",
+            "I_R"
+          ]
+        },
+        {
+          "name": "MtEvent",
+          "unique": false,
+          "columns": [
+            "MtEvent"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "ESPLITS": {
+      "columns": [
+        {
+          "name": "SplitID",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SplitIndex",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Split",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RelayLeg",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PrimaryKey",
+          "unique": true,
+          "columns": [
+            "SplitID",
+            "SplitIndex"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "FAVORITES": {
+      "columns": [
+        {
+          "name": "FavName",
+          "type": "TEXT",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FavTeam",
+          "type": "TEXT",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FavGroup",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FavSubGr",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FavClass",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FavMeetType",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FavCourse",
+          "type": "TEXT",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FavWMGroup",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FavWMSubGr",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SinceDate",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "UntilDate",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FavTeamDiv",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "HYTEKAGEGROUP": {
+      "columns": [
+        {
+          "name": "AgType",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Lo_Hi",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Course",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F125",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F150",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F1100",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F1200",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F1400",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F1500",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F1800",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F11000",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F11500",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F11650",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F225",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F250",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F2100",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F2200",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F325",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F350",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F3100",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F3200",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F425",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F450",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F4100",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F4200",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F5100",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F5200",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F5400",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "Primary",
+          "unique": true,
+          "columns": [
+            "AgType",
+            "Lo_Hi",
+            "Course"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "JOURNAL": {
+      "columns": [
+        {
+          "name": "JDate",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Subject",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Comment",
+          "type": "TEXT",
+          "length": 510,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "MEET": {
+      "columns": [
+        {
+          "name": "Meet",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "MName",
+          "type": "TEXT",
+          "length": 90,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Start",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "End",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "AgeUp",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Since",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Course",
+          "type": "TEXT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Location",
+          "type": "TEXT",
+          "length": 90,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Remarks",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "IndCharge",
+          "type": "FLOAT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RelCharge",
+          "type": "FLOAT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SurCharge",
+          "type": "FLOAT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Type",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Sanction",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MaxIndEnt",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MaxRelEnt",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MaxEnt",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RestrictBest",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "NonConform",
+          "type": "DOUBLE",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EnterAtQTime",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FacilityFee",
+          "type": "FLOAT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TeamFee",
+          "type": "FLOAT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Instructions",
+          "type": "TEXT",
+          "length": 500,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MinAge",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EnforceQualifying",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Altitude",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EnforceSlowQtime",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "BanNoTimes",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Lanes",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EvenOrOdd",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FastToSlow",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Masters",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ActiveFeeXMLSent",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MinAge10AndUnder",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SeedLanes",
+          "type": "TEXT",
+          "length": 32,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DeadLine",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ActiveMeetID",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CustIndCharge",
+          "type": "FLOAT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CustRelCharge",
+          "type": "FLOAT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CustSurCharge",
+          "type": "FLOAT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CustIndAction",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CustRelAction",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CustSurAction",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "UseCustomFees",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Addr",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Addr2",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "City",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "State",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ZIP",
+          "type": "TEXT",
+          "length": 20,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Cntry",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "OMEEntryStyle",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SwimmerEntryDeadLine",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SwimmerEntryOpen",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "AllowCustomTimes",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ExportEntriesDate",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LastSyncDate",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FinalizeEntriesDate",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "UseSwimmersTeam",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HonorInviteList",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EntryTeam",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EMailFrom",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EMailSubject",
+          "type": "TEXT",
+          "length": 200,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EMailText",
+          "type": "TEXT",
+          "length": 508,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EntryEMailFrom",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EntryEMailSubject",
+          "type": "TEXT",
+          "length": 200,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EntryEMailText",
+          "type": "TEXT",
+          "length": 508,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "OMEBillDate",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "InviteEmailDate",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CollectFeesOnline",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "OMEValidated",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "OMECustomTeam",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "OMEFilterTeam",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "OMENeedSync",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "License",
+          "type": "TEXT",
+          "length": 240,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "OnlyPreEntered",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "OMENeedsSync",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MeetSharingStatus",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FileExportType",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MeetRegistrationOpens",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MeetRegistrationCloses",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MeetSharingMeetID",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MeetSharingPayStatus",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MeetSharingResultDate",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EV3Version",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ZID",
+          "unique": true,
+          "columns": [
+            "Meet"
+          ]
+        },
+        {
+          "name": "Name",
+          "unique": true,
+          "columns": [
+            "MName",
+            "Start"
+          ]
+        },
+        {
+          "name": "Start",
+          "unique": false,
+          "columns": [
+            "Start"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "MemCirName": {
+      "columns": [
+        {
+          "name": "cir_no",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "cir_name",
+          "type": "TEXT",
+          "length": 180,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "tot_lines",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "tot_dist",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "tot_seconds",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "memcirno",
+          "unique": false,
+          "columns": [
+            "cir_no"
+          ]
+        },
+        {
+          "name": "memcirname",
+          "unique": false,
+          "columns": [
+            "cir_name",
+            "cir_no"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "MemCirSets": {
+      "columns": [
+        {
+          "name": "cir_no",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "circuit_line",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_reps",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_dist",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_interval",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_desc",
+          "type": "TEXT",
+          "length": 64,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_energyno",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_type",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_categoryabbr",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "memcirsetorder",
+          "unique": false,
+          "columns": [
+            "cir_no",
+            "circuit_line"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "MemSets": {
+      "columns": [
+        {
+          "name": "set_no",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "set_reps",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_dist",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_interval",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_desc",
+          "type": "TEXT",
+          "length": 64,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_energyno",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_type",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_categoryabbr",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "memsetorder",
+          "unique": false,
+          "columns": [
+            "set_energyno",
+            "set_dist",
+            "set_reps",
+            "set_interval",
+            "set_desc"
+          ]
+        },
+        {
+          "name": "setno",
+          "unique": false,
+          "columns": [
+            "set_no"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "model": {
+      "columns": [
+        {
+          "name": "wk_ptr",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "wk_line",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "wk_type",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "circuit_line",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "circuit_tot",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "circuit_reps",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_reps",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_dist",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_interval",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_desc",
+          "type": "TEXT",
+          "length": 64,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_note",
+          "type": "TEXT",
+          "length": 110,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_energyno",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_type",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_categoryabbr",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "tot_yards",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_starttime",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_finishtime",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "wkptrline",
+          "unique": false,
+          "columns": [
+            "wk_ptr",
+            "wk_line"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "ModelParam": {
+      "columns": [
+        {
+          "name": "wk_ptr",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "wk_num",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "wk_date",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "start_time",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "rest_period",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "group_abbr",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "subgroup_abbr",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "course_yls",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "tot_yards",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "tot_stress",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ck_selected",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "wkparameter",
+          "unique": true,
+          "columns": [
+            "wk_ptr"
+          ]
+        },
+        {
+          "name": "wkdate",
+          "unique": false,
+          "columns": [
+            "wk_date",
+            "group_abbr",
+            "subgroup_abbr",
+            "start_time"
+          ]
+        },
+        {
+          "name": "wkgroup",
+          "unique": false,
+          "columns": [
+            "group_abbr",
+            "subgroup_abbr",
+            "wk_date",
+            "start_time"
+          ]
+        },
+        {
+          "name": "wktotyards",
+          "unique": false,
+          "columns": [
+            "tot_yards"
+          ]
+        },
+        {
+          "name": "wknum",
+          "unique": false,
+          "columns": [
+            "wk_num"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "modt30times": {
+      "columns": [
+        {
+          "name": "athlete",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "event_no",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "course_yls",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "event_dist",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "event_time",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "shave_type",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "modt30athevt",
+          "unique": false,
+          "columns": [
+            "athlete",
+            "course_yls",
+            "shave_type",
+            "event_no"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "MSDecline": {
+      "columns": [
+        {
+          "name": "MName",
+          "type": "TEXT",
+          "length": 90,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Start",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MeetSharingMeetID",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MeetRegistrationOpens",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MeetRegistrationCloses",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MeetSharingStatus",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MeetSharingPayStatus",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ZID",
+          "unique": true,
+          "columns": [
+            "MeetSharingMeetID"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "MTEVENT": {
+      "columns": [
+        {
+          "name": "Meet",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MtEv",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MtEvX",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Lo_Hi",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Course",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MtEvent",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "Distance",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Stroke",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Sex",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "I_R",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Session",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Division",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EventType",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SESSX",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ZID",
+          "unique": true,
+          "columns": [
+            "MtEvent"
+          ]
+        },
+        {
+          "name": "MtEv",
+          "unique": true,
+          "columns": [
+            "Meet",
+            "MtEv",
+            "MtEvX"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "MTEVENTE": {
+      "columns": [
+        {
+          "name": "Meet",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MtEv",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MtEvX",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Lo_Hi",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FastCut",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SlowCut",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Course",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MtEvent",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "Fast_L",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Slow_L",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Fast_Y",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Slow_Y",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TstdFile",
+          "type": "TEXT",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TstDesig",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Distance",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Stroke",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Sex",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "I_R",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Session",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Division",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Fee",
+          "type": "FLOAT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ExportEvent",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "GenderMix",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SESSX",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ZID",
+          "unique": true,
+          "columns": [
+            "MtEvent"
+          ]
+        },
+        {
+          "name": "MtEv",
+          "unique": true,
+          "columns": [
+            "Meet",
+            "MtEv",
+            "MtEvX"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "OMEINVITE": {
+      "columns": [
+        {
+          "name": "IMEET",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "IATHLETE",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "INVITEDATE",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "NEWADD",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DELETED",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ITEAM",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ITEAMCODE",
+          "type": "TEXT",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "INVITEEMAILSENT",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ZID",
+          "unique": true,
+          "columns": [
+            "IMEET",
+            "IATHLETE"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "OMEOPTIONS": {
+      "columns": [
+        {
+          "name": "OMEEntryStyle",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "OMEReviewTime",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EMailFrom",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EMailSubject",
+          "type": "TEXT",
+          "length": 200,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EMailText",
+          "type": "TEXT",
+          "length": 508,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LastName",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FirstName",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Phone",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EMail",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TeamName",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Addr",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SecAddr",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "City",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "State",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Zip",
+          "type": "TEXT",
+          "length": 20,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Cntry",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TimeZone",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "PayTo",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Classification",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "WebSite",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "NoShowMeetList",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "NoShowMeetSetup",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "NoShowActiveComSetup",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "USASwimming",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Masters",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SwimLessons",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HighSchool",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SummerLeague",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "OpenWater",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "College",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Swimathons",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "HostSwimMeets",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Other",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "OtherText",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Token",
+          "type": "TEXT",
+          "length": 200,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "OMEWebSite",
+          "type": "TEXT",
+          "length": 200,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "AgencyID",
+          "type": "TEXT",
+          "length": 80,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "License",
+          "type": "TEXT",
+          "length": 240,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "OPTIONS": {
+      "columns": [
+        {
+          "name": "State",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Citizen",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LSC",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Standard",
+          "type": "TEXT",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Record",
+          "type": "TEXT",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Course",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TeamType",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RegType",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Line1",
+          "type": "TEXT",
+          "length": 80,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Line2",
+          "type": "TEXT",
+          "length": 80,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RptUCase",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SysAgeUp",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MtAgeUp",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MtDate",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FavSex",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "NoAge",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MinAge",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FavTeam",
+          "type": "TEXT",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FavLSC",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CvtFactor",
+          "type": "DOUBLE",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CvtType",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Cvt500",
+          "type": "DOUBLE",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Cvt1650",
+          "type": "DOUBLE",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FreeTurn",
+          "type": "DOUBLE",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "BackTurn",
+          "type": "DOUBLE",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "BreastTurn",
+          "type": "DOUBLE",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "FlyTurn",
+          "type": "DOUBLE",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "IMTurn",
+          "type": "DOUBLE",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Straight",
+          "type": "DOUBLE",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Y2L",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Language",
+          "type": "TEXT",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LabelOption",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ShowMI",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ShowAges",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ShowBirth",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ShowClass",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ShowFirstFirst",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Favorite",
+          "type": "TEXT",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ToScreen",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "NumCopies",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "PaperSize",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "UseLeadOff",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "UseStrokeRates",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusPrompt1",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusPrompt2",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusPrompt3",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RegDate",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ShowOnlyFast",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LabelType",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ImportDir",
+          "type": "TEXT",
+          "length": 240,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ExportDir",
+          "type": "TEXT",
+          "length": 240,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "BackupDir",
+          "type": "TEXT",
+          "length": 240,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ReportDir",
+          "type": "TEXT",
+          "length": 240,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LSCFee",
+          "type": "FLOAT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RegAddr",
+          "type": "TEXT",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RegCity",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RegState",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RegZIP",
+          "type": "TEXT",
+          "length": 20,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RegMailTo",
+          "type": "TEXT",
+          "length": 80,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RegPayTo",
+          "type": "TEXT",
+          "length": 80,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "PalmImportDir",
+          "type": "TEXT",
+          "length": 240,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LSCSeasonalFee",
+          "type": "FLOAT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "BackupCheck",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "UpdateCheck",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LastBackup",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LastSplitExtract",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "AgeupToCurrent",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DbVersion",
+          "type": "TEXT",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DefaultDir",
+          "type": "TEXT",
+          "length": 240,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RelayOrder",
+          "type": "TEXT",
+          "length": 14,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LastDir",
+          "type": "TEXT",
+          "length": 240,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SplitPref",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "rptLastFirst",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "rptShowMI",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "rptFILast",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "rptFirstLI",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "rptShowPref",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "OfficialLine1",
+          "type": "TEXT",
+          "length": 216,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "OfficialLine2",
+          "type": "TEXT",
+          "length": 216,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "OfficialLine3",
+          "type": "TEXT",
+          "length": 216,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "UseProvince",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DefCity",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusPrompt4",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusPrompt5",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusPrompt6",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusPrompt7",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "CusPrompt8",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "OnlineRegistrationType",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DefZip",
+          "type": "TEXT",
+          "length": 20,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DontShowMeetSharing",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "PREENTER": {
+      "columns": [
+        {
+          "name": "THEATHLETE",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "THEMEET",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "PREENTERED",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SESSION1",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SESSION2",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SESSION3",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SESSION4",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SESSION5",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SESSION6",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SESSION7",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SESSION8",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SESSION9",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SESSION10",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "NOTATTENDING",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ZID",
+          "unique": true,
+          "columns": [
+            "THEATHLETE",
+            "THEMEET"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "RECNAME": {
+      "columns": [
+        {
+          "name": "RecFile",
+          "type": "TEXT",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Year",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Descript",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Flag",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Course",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Record",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "RECORDS": {
+      "columns": [
+        {
+          "name": "Record",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Lo_Age",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Hi_Age",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RecText",
+          "type": "TEXT",
+          "length": 160,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RecDate",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RecTime",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RecLSC",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RecTeam",
+          "type": "TEXT",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Ex",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Distance",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Stroke",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Sex",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "I_R",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Rec",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "Course",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Division",
+          "type": "TEXT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "Hi_Age",
+          "unique": false,
+          "columns": [
+            "Distance",
+            "Stroke",
+            "Sex",
+            "I_R",
+            "Hi_Age",
+            "Lo_Age"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "RELAY": {
+      "columns": [
+        {
+          "name": "RELAY",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "MEET",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LO_HI",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TEAM",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LETTER",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "AGE_RANGE",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SEX",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ATH(1)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ATH(2)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ATH(3)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ATH(4)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ATH(5)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ATH(6)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ATH(7)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ATH(8)",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DISTANCE",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "STROKE",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RELAYAGE",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "REACTION1",
+          "type": "TEXT",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "REACTION2",
+          "type": "TEXT",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "REACTION3",
+          "type": "TEXT",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "REACTION4",
+          "type": "TEXT",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ZID",
+          "unique": true,
+          "columns": [
+            "RELAY"
+          ]
+        },
+        {
+          "name": "ATH1",
+          "unique": false,
+          "columns": [
+            "ATH(1)"
+          ]
+        },
+        {
+          "name": "ATH2",
+          "unique": false,
+          "columns": [
+            "ATH(2)"
+          ]
+        },
+        {
+          "name": "ATH3",
+          "unique": false,
+          "columns": [
+            "ATH(3)"
+          ]
+        },
+        {
+          "name": "ATH4",
+          "unique": false,
+          "columns": [
+            "ATH(4)"
+          ]
+        },
+        {
+          "name": "Team",
+          "unique": false,
+          "columns": [
+            "TEAM",
+            "DISTANCE",
+            "STROKE",
+            "SEX",
+            "LO_HI",
+            "MEET",
+            "LETTER"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "RESULT": {
+      "columns": [
+        {
+          "name": "MEET",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ATHLETE",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "I_R",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TEAM",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SCORE",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "F_P",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SPLIT",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EX",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ORIGIN",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "NT",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RESULT",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "MISC",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "AGE",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DISTANCE",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "STROKE",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MTEVENT",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "POINTS",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "PLACE",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "RANK",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TRANK",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "COURSE",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "REACTION",
+          "type": "TEXT",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DQCODE",
+          "type": "TEXT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DQDESCRIPT",
+          "type": "TEXT",
+          "length": 180,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DQCODESecondary",
+          "type": "TEXT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DQDESCRIPTSecondary",
+          "type": "TEXT",
+          "length": 180,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ZID",
+          "unique": true,
+          "columns": [
+            "RESULT"
+          ]
+        },
+        {
+          "name": "Athlete",
+          "unique": false,
+          "columns": [
+            "ATHLETE"
+          ]
+        },
+        {
+          "name": "Fast",
+          "unique": false,
+          "columns": [
+            "ATHLETE",
+            "I_R",
+            "DISTANCE",
+            "STROKE",
+            "COURSE",
+            "RANK"
+          ]
+        },
+        {
+          "name": "FastRelay",
+          "unique": false,
+          "columns": [
+            "TEAM",
+            "I_R",
+            "DISTANCE",
+            "STROKE",
+            "COURSE",
+            "RANK"
+          ]
+        },
+        {
+          "name": "Meet",
+          "unique": true,
+          "columns": [
+            "MEET",
+            "ATHLETE",
+            "I_R",
+            "MTEVENT",
+            "F_P"
+          ]
+        },
+        {
+          "name": ".rF",
+          "unique": true,
+          "columns": [
+            "RESULT"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "SESSIONS": {
+      "columns": [
+        {
+          "name": "MEETID",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SESSION",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MAXIND",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MAXREL",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MAXCOMBINED",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "DAY",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "STARTTIME",
+          "type": "TEXT",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "AMPM",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SESSX",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "SetDescriptions": {
+      "columns": [
+        {
+          "name": "set_name",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "setname",
+          "unique": true,
+          "columns": [
+            "set_name"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "SPLITS": {
+      "columns": [
+        {
+          "name": "SplitID",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "SplitIndex",
+          "type": "BYTE",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Split",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "StrokeRate",
+          "type": "FLOAT",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PrimaryKey",
+          "unique": true,
+          "columns": [
+            "SplitID",
+            "SplitIndex"
+          ]
+        },
+        {
+          "name": "ResultsSplits",
+          "unique": false,
+          "columns": [
+            "SplitID"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "STDNAME": {
+      "columns": [
+        {
+          "name": "StdFile",
+          "type": "TEXT",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Year",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Descript",
+          "type": "TEXT",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D1",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D2",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D3",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D4",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D5",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D6",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D7",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D8",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D9",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D10",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D11",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D12",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D1Des",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D2Des",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D3Des",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D4Des",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D5Des",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D6Des",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D7Des",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D8Des",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D9Des",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D10Des",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D11Des",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "D12Des",
+          "type": "TEXT",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [],
+      "rows": []
+    },
+    "StrokeCategory": {
+      "columns": [
+        {
+          "name": "stroke_abbr",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "stroke_name",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "strokeabbr",
+          "unique": true,
+          "columns": [
+            "stroke_abbr"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "TEAM": {
+      "columns": [
+        {
+          "name": "Team",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "TCode",
+          "type": "TEXT",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TName",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Short",
+          "type": "TEXT",
+          "length": 32,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "LSC",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MailTo",
+          "type": "TEXT",
+          "length": 80,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TAddr",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TCity",
+          "type": "TEXT",
+          "length": 60,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TState",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TZip",
+          "type": "TEXT",
+          "length": 20,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TCntry",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Day",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Eve",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Fax",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TType",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Regn",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "Reg",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "MinAge",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "NumAth",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "EMail",
+          "type": "TEXT",
+          "length": 72,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TM50",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "TDivision",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "ZID",
+          "unique": true,
+          "columns": [
+            "Team"
+          ]
+        },
+        {
+          "name": "Code",
+          "unique": false,
+          "columns": [
+            "TCode"
+          ]
+        },
+        {
+          "name": "LSC",
+          "unique": true,
+          "columns": [
+            "LSC",
+            "TCode"
+          ]
+        },
+        {
+          "name": "Name",
+          "unique": false,
+          "columns": [
+            "TName"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "TestData": {
+      "columns": [
+        {
+          "name": "test_no",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "athlete",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "heart_1",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "heart_2",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "heart_3",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ind_rmk",
+          "type": "TEXT",
+          "length": 80,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "testnoathno",
+          "unique": false,
+          "columns": [
+            "test_no",
+            "athlete"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "TestLine": {
+      "columns": [
+        {
+          "name": "test_no",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "athlete",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "rep_no",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "rep_time",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "testrepno",
+          "unique": false,
+          "columns": [
+            "test_no",
+            "athlete",
+            "rep_no"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "TestSet": {
+      "columns": [
+        {
+          "name": "test_no",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "test_date",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "tot_reps",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "test_dist",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "test_interval",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "test_sly",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "push_off",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "test_rmk",
+          "type": "TEXT",
+          "length": 80,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "test_stroke",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "use_it",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "testno",
+          "unique": false,
+          "columns": [
+            "test_no"
+          ]
+        },
+        {
+          "name": "testdate",
+          "unique": false,
+          "columns": [
+            "test_date"
+          ]
+        },
+        {
+          "name": "testsort",
+          "unique": false,
+          "columns": [
+            "test_sly",
+            "test_dist",
+            "tot_reps",
+            "test_interval",
+            "test_stroke",
+            "test_date"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "TestT30": {
+      "columns": [
+        {
+          "name": "athlete",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "test_date",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "test_stroke",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "test_dist",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "test_time",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "test_sly",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "test_rmk",
+          "type": "TEXT",
+          "length": 80,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "heart_1",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "heart_2",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "heart_3",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "use_it",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "athnodate",
+          "unique": false,
+          "columns": [
+            "athlete",
+            "test_date",
+            "test_sly"
+          ]
+        },
+        {
+          "name": "testt30date",
+          "unique": false,
+          "columns": [
+            "test_date",
+            "test_sly"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "WkParam": {
+      "columns": [
+        {
+          "name": "wk_ptr",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": true
+        },
+        {
+          "name": "wk_num",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "wk_date",
+          "type": "SHORT_DATE_TIME",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "start_time",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "rest_period",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "group_abbr",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "subgroup_abbr",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "course_yls",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "tot_yards",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "tot_stress",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "ck_selected",
+          "type": "BOOLEAN",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "wkparameter",
+          "unique": true,
+          "columns": [
+            "wk_ptr"
+          ]
+        },
+        {
+          "name": "wkdate",
+          "unique": false,
+          "columns": [
+            "wk_date",
+            "group_abbr",
+            "subgroup_abbr",
+            "start_time"
+          ]
+        },
+        {
+          "name": "wkgroup",
+          "unique": false,
+          "columns": [
+            "group_abbr",
+            "subgroup_abbr",
+            "wk_date",
+            "start_time"
+          ]
+        },
+        {
+          "name": "wktotyards",
+          "unique": false,
+          "columns": [
+            "tot_yards"
+          ]
+        },
+        {
+          "name": "wknum",
+          "unique": false,
+          "columns": [
+            "wk_num"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "WorkCategory": {
+      "columns": [
+        {
+          "name": "stroke_abbr",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "stroke_name",
+          "type": "TEXT",
+          "length": 40,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "workabbr",
+          "unique": true,
+          "columns": [
+            "stroke_abbr"
+          ]
+        }
+      ],
+      "rows": []
+    },
+    "Workout": {
+      "columns": [
+        {
+          "name": "wk_ptr",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "wk_line",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "wk_type",
+          "type": "TEXT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "circuit_line",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "circuit_tot",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "circuit_reps",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_reps",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_dist",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_interval",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_desc",
+          "type": "TEXT",
+          "length": 64,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_note",
+          "type": "TEXT",
+          "length": 110,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_energyno",
+          "type": "INT",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_type",
+          "type": "TEXT",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_categoryabbr",
+          "type": "TEXT",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "tot_yards",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_starttime",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        },
+        {
+          "name": "set_finishtime",
+          "type": "LONG",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "auto_number": false
+        }
+      ],
+      "indexes": [
+        {
+          "name": "wkptrline",
+          "unique": false,
+          "columns": [
+            "wk_ptr",
+            "wk_line"
+          ]
+        }
+      ],
+      "rows": []
+    }
+  }
+}
